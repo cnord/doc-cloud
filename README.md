@@ -1,28 +1,10 @@
-## Compiling user manual
-### To PDF
-Simple command to compile English manual 
+## Инструменты для работы с Markdown
 
-  pandoc *.md -o manual.pdf
+* [MarkdownPad](http://markdownpad.com/) - редактор под Windows
 
-Extended command to compile Russian manual
+* [Pandoc](http://johnmacfarlane.net/pandoc/) -- конвертор из Markdown в PDF, HTML, Word, и т.д..
 
-	pandoc --template template/template.latex -V lang=russian *.md -o manual.pdf
-	
-### To HTML
-
-Plain HTML file
- 
-	pandoc *.md -o manual.html
-
-Styled HTML file with `pandoc.css`
-
-	pandoc --include-in-header template/pandoc.css *.md -o manual.html
-
-## Tools
-
-* [Pandoc](http://johnmacfarlane.net/pandoc/) -- converting documents form Markdown to PDF, HTML, Word, etc.
-
-* [Markdown Syntax](http://daringfireball.net/projects/markdown/) -- Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+* [Markdown Syntax](http://daringfireball.net/projects/markdown/) -- описание языка разметки Markdown.
 
 * [MultiMarkdown](http://fletcherpenney.net/multimarkdown/) -- MultiMarkdown is a superset of the Markdown syntax, originally created by John Gruber. It adds multiple syntax features (tables, footnotes, and citations, to name a few).
 
